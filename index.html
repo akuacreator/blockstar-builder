@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Blockstar Builder</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background: linear-gradient(to right, #ff6ec4, #7873f5);
+      color: white;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+    }
+    h1 {
+      font-size: 3em;
+      margin-bottom: 0.5em;
+    }
+    .avatar {
+      width: 120px;
+      height: 120px;
+      border-radius: 50%;
+      background: white;
+      margin-bottom: 1em;
+    }
+    .start-btn {
+      padding: 10px 20px;
+      font-size: 1.2em;
+      background: #fff;
+      color: #7873f5;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+  <h1>Welcome to Blockstar Builder</h1>
+  <div class="avatar"></div>
+  <button class="start-btn" onclick="startGame()">Start Building</button>
+
+  <script>
+    function startGame() {
+      alert("Let’s build something amazing, Akua!");
+    }
+  </script>
+</body>
+</html>
